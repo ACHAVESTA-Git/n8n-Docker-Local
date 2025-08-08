@@ -1,0 +1,13 @@
+# Variables de entorno
+.env
+
+# Datos persistentes
+data/
+logs/
+
+# Dependencias de Node
+node_modules/
+
+# Archivos temporales
+*.log
+*.tmp
