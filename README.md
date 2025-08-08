@@ -58,21 +58,6 @@ n8n-docker-local/
 <img width="1112" height="475" alt="image" src="https://github.com/user-attachments/assets/faee14dd-f88e-4a02-bfcd-cf040b46200c" />
 
 ---
-
-
-## ⚙️ Configuración del archivo `.env`
-
-Ejemplo de configuración:
-
-```env
-N8N_PORT=5678
-N8N_BASIC_AUTH_ACTIVE=true
-N8N_BASIC_AUTH_USER=##AQUI YO CONFIGURE CON MI USUARIO PROPIO
-N8N_BASIC_AUTH_PASSWORD=$##AQUI TAMBIEN PUSE UNA CONTRASEÑA UNICA
-GENERIC_TIMEZONE=America/Lima
-
----
-
 ## 🐳 Archivo docker-compose.yml
 services:
   n8n:
@@ -89,7 +74,6 @@ services:
       - ./data:/home/node/.n8n
     restart: unless-stopped
 ---
-
 
 ##  ▶️ Pasos para ejecutar n8n localmente
    1) Clonar este repositorio
@@ -118,5 +102,8 @@ services:
   El archivo .env contiene credenciales, no lo subas a GitHub.
 
   Si el puerto 5678 está ocupado, cámbialo en .env.
+
+
+
 
 
