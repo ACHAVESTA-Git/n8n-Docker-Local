@@ -30,8 +30,6 @@ Antes de comenzar, asegúrate de tener instalado:
 
 ## 📂 Estructura de carpetas recomendada en VS Code
 
-La organización del proyecto es la siguiente:
-
 n8n-docker-local/
 │
 ├── docker-compose.yml # Configuración del servicio n8n
