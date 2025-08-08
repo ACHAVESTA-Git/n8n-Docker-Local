@@ -48,12 +48,12 @@ n8n-docker-local/
 └── ejemplo.js
 
 
-📷 **Evidencia visual de la estructura en VS Code:**  
+## 📷 **Evidencia visual de la estructura en VS Code:**  
 
 <img width="902" height="496" alt="image" src="https://github.com/user-attachments/assets/ee12e078-00e8-4eee-bb7c-7163758c0982" />
 
 ---
-📷 **Evidencia visual de como deberia verse la terminal para saber que Docker esta corriendo perfectamente:** 
+## 📷 **Evidencia visual de como deberia verse la terminal para saber que Docker esta corriendo perfectamente:** 
 
 <img width="1112" height="475" alt="image" src="https://github.com/user-attachments/assets/faee14dd-f88e-4a02-bfcd-cf040b46200c" />
 
@@ -73,7 +73,7 @@ GENERIC_TIMEZONE=America/Lima
 
 ---
 
-🐳 Archivo docker-compose.yml
+## 🐳 Archivo docker-compose.yml
 services:
   n8n:
     image: n8nio/n8n
@@ -91,7 +91,7 @@ services:
 ---
 
 
-▶️ Pasos para ejecutar n8n localmente
+##  ▶️ Pasos para ejecutar n8n localmente
    1) Clonar este repositorio
       git clone https://github.com/TU_USUARIO/n8n-docker-local.git
       cd n8n-docker-local
@@ -101,7 +101,7 @@ services:
       📷 Evidencia de n8n funcionando:
       <img width="1354" height="686" alt="image" src="https://github.com/user-attachments/assets/9297037b-2107-49d0-898a-22e4271e777a" />
 
-📦 Dependencias utilizadas
+## 📦 Dependencias utilizadas
   n8nio/n8n → Imagen oficial de n8n en Docker Hub.
 
   Docker → Para contenerización del servicio.
@@ -112,7 +112,7 @@ services:
 
   Git → Para control de versiones.
 
-📄 Notas importantes
+## 📄 Notas importantes
   La carpeta data/ contiene todos tus workflows y credenciales, no la borres.
 
   El archivo .env contiene credenciales, no lo subas a GitHub.
