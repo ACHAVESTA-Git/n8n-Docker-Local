@@ -56,6 +56,7 @@ n8n-docker-local/
 <img width="1112" height="475" alt="image" src="https://github.com/user-attachments/assets/faee14dd-f88e-4a02-bfcd-cf040b46200c" />
 
 ---
+--
 ## 🐳 Archivo docker-compose.yml
 services:
   n8n:
@@ -78,12 +79,15 @@ services:
       git clone https://github.com/TU_USUARIO/n8n-docker-local.git
       cd n8n-docker-local
    2) Levantar contenedor en tu terminal CMD: docker-compose up -d
+      
       <img width="353" height="37" alt="image" src="https://github.com/user-attachments/assets/bd030750-4caa-465e-8503-64ba34c78de7" />
    3) Acceder desde el navegador: http://localhost:5678
       📷 Evidencia de n8n funcionando:
+      
       <img width="1354" height="686" alt="image" src="https://github.com/user-attachments/assets/9297037b-2107-49d0-898a-22e4271e777a" />
 
 ## 📦 Dependencias utilizadas
+
   n8nio/n8n → Imagen oficial de n8n en Docker Hub.
 
   Docker → Para contenerización del servicio.
